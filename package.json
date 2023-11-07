@@ -1,0 +1,22 @@
+{
+  "name": "votingdapp",
+  "version": "1.0.0",
+  "description": "voting dapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aji70"
+  },
+  "keywords": [
+    "aji"
+  ],
+  "author": "Ajidokwu Sabo",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
