@@ -79,9 +79,13 @@ contract Vote{
         uint256 candidateVotingIndex = candidates.length - 1;
         candidateIndexed[msg.sender] = candidateVotingIndex;
         candidateRegister[msg.sender] = true;
+    }
 
-
-
+    function viewCandidates()public view returns (Candidate memory){ 
+        for (uint i = 0; i < (candidates.length - 1); i++){
+             return  candidates[i];
+        }
+       
     }
 
 
