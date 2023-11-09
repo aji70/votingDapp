@@ -81,12 +81,6 @@ contract Vote{
         candidateRegister[msg.sender] = true;
     }
 
-    function viewCandidates()public view returns (Candidate memory){ 
-        for (uint i = 0; i < (candidates.length - 1); i++){
-             return  candidates[i];
-        }
-       
-    }
 
 
      function votersRegistration(uint256 _createID) public{
