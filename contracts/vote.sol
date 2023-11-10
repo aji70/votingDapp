@@ -62,7 +62,7 @@ contract Vote{
        uint256 randonizingId = uint256(keccak256(abi.encodePacked(_createID)));
        uint256 randomkey = uint256(keccak256(abi.encodePacked(randonizingId + randomizingAddr)));
         uint256 _candidateKey =  randomkey % uniqueKeyM;
-        candidateRegistraionKey[owner] = _candidateKey;
+        candidateRegistraionKey[owner] = _candidateKey
 
         emit CandidateregistrationEvent(owner, _candidateKey, "Candidate Registration Key Purchased successfully");
 
