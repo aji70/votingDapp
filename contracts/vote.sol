@@ -51,7 +51,7 @@ contract Vote{
 
 
     function TimeRemaining() public view returns(uint256){
-         uint256 Timeremainin = (ClosingTime - block.timestamp) / 60
+         uint256 Timeremainin = (ClosingTime - block.timestamp) / 60;
          return  Timeremainin;
     }
 
