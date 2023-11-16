@@ -116,7 +116,7 @@ contract Vote{
         require(!hasVoted[msg.sender], "You have voted");        
         hasVoted[msg.sender] = true;
         
-        emit Registered(msg.sender ,"", "Voted successful");
+        emit Registered(msg.sender ,"", "Voted successful")
 
     }
 
