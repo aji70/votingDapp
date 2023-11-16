@@ -46,7 +46,7 @@ contract Vote{
     mapping(address => bool) viewed;
     mapping(address => uint256) voterIndexed;
     mapping(address => uint256) candidateRegistraionKey;
-    mapping(address => uint256) candidateIndexed
+    mapping(address => uint256) candidateIndexed;
     
 
 
